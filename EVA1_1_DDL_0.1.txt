@@ -1,0 +1,58 @@
+Microsoft Windows [Versión 10.0.19045.2486]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\angel>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Shell.lnk"
+MySQL Shell 8.0.32
+
+Copyright (c) 2016, 2023, Oracle and/or its affiliates.
+Oracle is a registered trademark of Oracle Corporation and/or its affiliates.
+Other names may be trademarks of their respective owners.
+
+Type '\help' or '\?' for help; '\quit' to exit.
+ MySQL  JS > \sql
+Switching to SQL mode... Commands end with ;
+ MySQL  SQL > \connect --mc root@localhost
+Creating a Classic session to 'root@localhost'
+Please provide the password for 'root@localhost': ****
+MySQL Error 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+ MySQL  SQL > show databases;
+ERROR: Not connected.
+ MySQL  SQL > create databases evaluacion_1
+ERROR: Not connected.
+           -> show databases;
+ERROR: Not connected.
+ MySQL  SQL > \use evaluacion_1
+Not connected.
+ MySQL  SQL > show tables;
+ERROR: Not connected.
+ MySQL  SQL > drop database evaluacion_1
+ERROR: Not connected.
+           -> show tablas;
+ERROR: Not connected.
+ MySQL  SQL > \use world
+Not connected.
+ MySQL  SQL > show databases;
+ERROR: Not connected.
+ MySQL  SQL > \use evaluacion_1
+Not connected.
+ MySQL  SQL > show tables;
+ERROR: Not connected.
+ MySQL  SQL > create tabla primer_tabla(
+ERROR: Not connected.
+           -> id int;
+ERROR: Not connected.
+ MySQL  SQL > id iny,
+ERROR: Not connected.
+           -> nombre varchar(50));
+ERROR: Not connected.
+ MySQL  SQL > show tables;
+ERROR: Not connected.
+ MySQL  SQL > desc primer_tabla;
+ERROR: Not connected.
+ MySQL  SQL > \use sakila
+Not connected.
+ MySQL  SQL > drop database evaluacion_1
+ERROR: Not connected.
+           -> show databases;
+ERROR: Not connected.
+ MySQL  SQL >
